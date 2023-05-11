@@ -154,7 +154,6 @@ namespace ProjetoPI
             }
             Conexao.fecharConexao();
         }
-
         private void ltbItensPesquisados_SelectedIndexChanged(object sender, EventArgs e)
         {
             string valor = ltbItensPesquisados.SelectedItem.ToString();
@@ -163,7 +162,6 @@ namespace ProjetoPI
             abrir.Show();
             this.Hide();
         }
-
         private void btnPesquisaFunc_Click(object sender, EventArgs e)
         {
 
@@ -171,10 +169,15 @@ namespace ProjetoPI
             abrir.Show();
             this.Hide();
         }
-
         private void frmPesquisaFunc_Load(object sender, EventArgs e)
         {
 
+        }
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmfuncionarios abrir = new frmfuncionarios();
+            abrir.Show();
+            this.Hide();
         }
     }
 }

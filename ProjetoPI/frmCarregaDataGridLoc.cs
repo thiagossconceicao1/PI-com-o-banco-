@@ -9,24 +9,21 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
-
 namespace ProjetoPI
 {
-    public partial class frmCarregaDataGridDBUsu : Form
+    public partial class frmCarregaDataGridLoc : Form
     {
-        public frmCarregaDataGridDBUsu()
+        public frmCarregaDataGridLoc()
         {
             InitializeComponent();
-        } 
+        }
 
-        
-    private void btnCarregaDados_Click_1(object sender, EventArgs e)
+        private void btnCarregaDados_Click(object sender, EventArgs e)
         {
-
             dgvFuncionarios.DataSource = null;
 
-            MySqlDataAdapter da = new MySqlDataAdapter("select codUsu as 'Código', nomeUsu as 'Nome', emailUsu as 'E-mail', senhaUsu as 'Senha', telefoneUsu as 'Telefone' from tbUsuario;", Conexao.obterConexao());
-            
+            MySqlDataAdapter da = new MySqlDataAdapter("select endereco as 'endereço', numero as 'Numero', cep as 'CEP', complemento as 'Complemento', bairro as 'Bairro', cidade as 'Cidade', siglaEst as 'Estado' from tbLocalizacao;", Conexao.obterConexao());
+
             DataTable dt = new DataTable();
 
             da.Fill(dt);
@@ -34,12 +31,11 @@ namespace ProjetoPI
             dgvFuncionarios.DataSource = dt;
 
             Conexao.fecharConexao();
-           
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-            frmPesquisaFunc abrir = new frmPesquisaFunc();
+            frmPesquisaLoc abrir = new frmPesquisaLoc();
             abrir.Show();
             this.Hide();
         }

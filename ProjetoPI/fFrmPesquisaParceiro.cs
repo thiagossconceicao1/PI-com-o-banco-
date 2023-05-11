@@ -79,7 +79,7 @@ namespace ProjetoPI
         public bool acessaBanco(string nome)
         {
             MySqlCommand comm = new MySqlCommand();
-            comm.CommandText = "select * from tbParceiro where nome = '" + nome + "';";
+            comm.CommandText = "select * from tbParceiro where nome like '%" + nome + "%';";
             comm.CommandType = CommandType.Text;
             comm.Connection = Conexao.obterConexao();
 
@@ -184,6 +184,13 @@ namespace ProjetoPI
         private void btnPesquisaParceiro_Click(object sender, EventArgs e)
         {
             frmCarregaDataGridParceiro abrir = new frmCarregaDataGridParceiro();
+            abrir.Show();
+            this.Hide();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmParceiros abrir = new frmParceiros();
             abrir.Show();
             this.Hide();
         }

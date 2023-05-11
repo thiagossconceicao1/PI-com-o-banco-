@@ -445,6 +445,7 @@ namespace ProjetoPI
             this.Name = "frmParceiros";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmParceiros";
+            this.Load += new System.EventHandler(this.frmParceiros_Load);
             this.gpbInfoMedico.ResumeLayout(false);
             this.gpbInfoMedico.PerformLayout();
             this.pnlParceiros.ResumeLayout(false);

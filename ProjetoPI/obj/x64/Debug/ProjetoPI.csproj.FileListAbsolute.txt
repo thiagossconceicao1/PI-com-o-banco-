@@ -307,7 +307,6 @@ C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--mast
 C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\bin\x64\Debug\System.Memory.xml
 C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\bin\x64\Debug\System.Numerics.Vectors.xml
 C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.csproj.AssemblyReference.cache
 C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.frmCarregaDataGridDB.resources
 C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.frmCarregaDataGridDBUsu.resources
 C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.frmfuncionarios.resources
@@ -325,5 +324,6 @@ C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--mast
 C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.pdb
 C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.fFrmPesquisaParceiro.resources
 C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.frmCarregaDataGridParceiro.resources
-C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.frmPesquisaUsu.resources
-C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.frmUsuario.resources
+C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.csproj.AssemblyReference.cache
+C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.frmCarregaDataGridLoc.resources
+C:\Users\thiago.ssconceicao\Documents\Visual Studio 2019\atuliza-o-sistema--master\ProjetoPI\obj\x64\Debug\ProjetoPI.frmPesquisaLoc.resources

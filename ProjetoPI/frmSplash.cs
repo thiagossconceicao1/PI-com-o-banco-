@@ -41,8 +41,8 @@ namespace ProjetoPI
             {
                 pgbCarregando.Value = pgbCarregando.Value + 2;
                 lblPorcentagem.Text = pgbCarregando.Value.ToString() + " %";
-                pgbCarregando.Visible = false;
-                lblCarregando.Visible = false;
+                pgbCarregando.Visible = true;
+                lblCarregando.Visible = true;
             }
             else
             {

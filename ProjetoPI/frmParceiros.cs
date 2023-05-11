@@ -333,9 +333,14 @@ namespace ProjetoPI
             }
         }
 
+        private void frmParceiros_Load(object sender, EventArgs e)
+        {
+
+        }
+
 
         //Validador de CPF adicionar
-        
+
 
 
     }

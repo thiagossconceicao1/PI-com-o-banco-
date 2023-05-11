@@ -39,6 +39,7 @@ namespace ProjetoPI
             this.lblDescricao = new System.Windows.Forms.Label();
             this.rdbNome = new System.Windows.Forms.RadioButton();
             this.rdbCodigo = new System.Windows.Forms.RadioButton();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.gpbPesquisar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -148,11 +149,26 @@ namespace ProjetoPI
             this.rdbCodigo.UseVisualStyleBackColor = true;
             this.rdbCodigo.CheckedChanged += new System.EventHandler(this.rdbCodigo_CheckedChanged);
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
+            this.btnVoltar.Location = new System.Drawing.Point(599, 369);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(148, 62);
+            this.btnVoltar.TabIndex = 17;
+            this.btnVoltar.Text = "&Voltar";
+            this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
             // fFrmPesquisaParceiro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnPesquisaParceiro);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnPesquisar);
@@ -177,5 +193,6 @@ namespace ProjetoPI
         private System.Windows.Forms.Label lblDescricao;
         private System.Windows.Forms.RadioButton rdbNome;
         private System.Windows.Forms.RadioButton rdbCodigo;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

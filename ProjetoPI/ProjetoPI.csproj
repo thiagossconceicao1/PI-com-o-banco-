@@ -130,6 +130,12 @@
     <Compile Include="frmCarregaDataGridDBUsu.Designer.cs">
       <DependentUpon>frmCarregaDataGridDBUsu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCarregaDataGridLoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarregaDataGridLoc.Designer.cs">
+      <DependentUpon>frmCarregaDataGridLoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCarregaDataGridParceiro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,23 +178,17 @@
     <Compile Include="frmPesquisaFunc.Designer.cs">
       <DependentUpon>frmPesquisaFunc.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPesquisaUsu.cs">
+    <Compile Include="frmPesquisaLoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPesquisaUsu.Designer.cs">
-      <DependentUpon>frmPesquisaUsu.cs</DependentUpon>
+    <Compile Include="frmPesquisaLoc.Designer.cs">
+      <DependentUpon>frmPesquisaLoc.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSplash.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmSplash.Designer.cs">
       <DependentUpon>frmSplash.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmUsuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmUsuario.Designer.cs">
-      <DependentUpon>frmUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -200,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCarregaDataGridDBUsu.resx">
       <DependentUpon>frmCarregaDataGridDBUsu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCarregaDataGridLoc.resx">
+      <DependentUpon>frmCarregaDataGridLoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCarregaDataGridParceiro.resx">
       <DependentUpon>frmCarregaDataGridParceiro.cs</DependentUpon>
@@ -222,14 +225,11 @@
     <EmbeddedResource Include="frmPesquisaFunc.resx">
       <DependentUpon>frmPesquisaFunc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPesquisaUsu.resx">
-      <DependentUpon>frmPesquisaUsu.cs</DependentUpon>
+    <EmbeddedResource Include="frmPesquisaLoc.resx">
+      <DependentUpon>frmPesquisaLoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSplash.resx">
       <DependentUpon>frmSplash.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmUsuario.resx">
-      <DependentUpon>frmUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

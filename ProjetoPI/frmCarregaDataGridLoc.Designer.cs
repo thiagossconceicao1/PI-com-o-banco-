@@ -1,7 +1,7 @@
 ﻿
 namespace ProjetoPI
 {
-    partial class frmCarregaDataGridDBUsu
+    partial class frmCarregaDataGridLoc
     {
         /// <summary>
         /// Required designer variable.
@@ -29,12 +29,21 @@ namespace ProjetoPI
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCarregaDataGridDBUsu));
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.dgvFuncionarios = new System.Windows.Forms.DataGridView();
             this.btnCarregaDados = new System.Windows.Forms.Button();
-            this.btnVoltar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFuncionarios)).BeginInit();
             this.SuspendLayout();
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Location = new System.Drawing.Point(645, 365);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(75, 55);
+            this.btnVoltar.TabIndex = 10;
+            this.btnVoltar.Text = "&Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // dgvFuncionarios
             // 
@@ -42,29 +51,19 @@ namespace ProjetoPI
             this.dgvFuncionarios.Location = new System.Drawing.Point(14, 30);
             this.dgvFuncionarios.Name = "dgvFuncionarios";
             this.dgvFuncionarios.Size = new System.Drawing.Size(773, 317);
-            this.dgvFuncionarios.TabIndex = 5;
+            this.dgvFuncionarios.TabIndex = 9;
             // 
             // btnCarregaDados
             // 
             this.btnCarregaDados.Location = new System.Drawing.Point(289, 365);
             this.btnCarregaDados.Name = "btnCarregaDados";
             this.btnCarregaDados.Size = new System.Drawing.Size(210, 55);
-            this.btnCarregaDados.TabIndex = 4;
-            this.btnCarregaDados.Text = "&Carrega Dados";
+            this.btnCarregaDados.TabIndex = 8;
+            this.btnCarregaDados.Text = "Carrega Dados";
             this.btnCarregaDados.UseVisualStyleBackColor = true;
-            this.btnCarregaDados.Click += new System.EventHandler(this.btnCarregaDados_Click_1);
+            this.btnCarregaDados.Click += new System.EventHandler(this.btnCarregaDados_Click);
             // 
-            // btnVoltar
-            // 
-            this.btnVoltar.Location = new System.Drawing.Point(659, 365);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(75, 55);
-            this.btnVoltar.TabIndex = 6;
-            this.btnVoltar.Text = "&Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
-            // 
-            // frmCarregaDataGridDBUsu
+            // frmCarregaDataGridLoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -73,10 +72,9 @@ namespace ProjetoPI
             this.Controls.Add(this.dgvFuncionarios);
             this.Controls.Add(this.btnCarregaDados);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "frmCarregaDataGridDBUsu";
+            this.Name = "frmCarregaDataGridLoc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmCarregaDataGridDBUsu";
+            this.Text = "frmCarregaDataGridLoc";
             ((System.ComponentModel.ISupportInitialize)(this.dgvFuncionarios)).EndInit();
             this.ResumeLayout(false);
 
@@ -84,8 +82,8 @@ namespace ProjetoPI
 
         #endregion
 
+        private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.DataGridView dgvFuncionarios;
         private System.Windows.Forms.Button btnCarregaDados;
-        private System.Windows.Forms.Button btnVoltar;
     }
 }

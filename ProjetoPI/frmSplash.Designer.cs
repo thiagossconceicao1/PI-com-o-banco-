@@ -43,14 +43,14 @@ namespace ProjetoPI
             // 
             this.pgbCarregando.Location = new System.Drawing.Point(256, 330);
             this.pgbCarregando.Name = "pgbCarregando";
-            this.pgbCarregando.Size = new System.Drawing.Size(317, 27);
+            this.pgbCarregando.Size = new System.Drawing.Size(273, 27);
             this.pgbCarregando.TabIndex = 7;
             // 
             // lblPorcentagem
             // 
             this.lblPorcentagem.AutoSize = true;
             this.lblPorcentagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPorcentagem.Location = new System.Drawing.Point(370, 303);
+            this.lblPorcentagem.Location = new System.Drawing.Point(377, 303);
             this.lblPorcentagem.Name = "lblPorcentagem";
             this.lblPorcentagem.Size = new System.Drawing.Size(35, 24);
             this.lblPorcentagem.TabIndex = 6;
