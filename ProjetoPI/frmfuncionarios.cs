@@ -16,6 +16,27 @@ namespace ProjetoPI
 {
     public partial class frmfuncionarios : Form
     {
+        public frmfuncionarios()
+        {
+            InitializeComponent();
+            desabilitaCampos();
+            carregarCombBox();
+        }
+        string cargo = "";
+
+        bool flag = false;
+
+        //contrutor com parametros
+        public frmfuncionarios(string cargo)
+        {
+            InitializeComponent();
+            desabilitaCampos();
+            carregarCombBox();
+            txtCargo.Text = cargo;
+            habilitarCampos();
+            pesquisarCampo(cargo);
+            ativarUpdate();
+        }
         //Criando variáveis para controle do menu
         const int MF_BYCOMMAND = 0X400;
         [DllImport("user32")]
@@ -62,7 +83,7 @@ namespace ProjetoPI
             txtBairro.Enabled = true;
             txtNum.Enabled = true;
             txtComplemento.Enabled = true;
-            btnNovo.Enabled = true;
+            btnNovo.Enabled = false;
             btnCadastrar.Enabled = false;
             btnAlterar.Enabled = false;
             btnExcluir.Enabled = false;
@@ -117,28 +138,7 @@ namespace ProjetoPI
         }
 
         //contrutor da classe
-        public frmfuncionarios()
-        {
-            InitializeComponent();
-            desabilitaCampos();
-            carregarCombBox();
-            ativarUpdate();
-        }
-       string cargo = "";
-
-        bool flag = false;
-
-        //contrutor com parametros
-        public frmfuncionarios(string cargo)
-        {
-            InitializeComponent();
-            desabilitaCampos();
-            carregarCombBox();
-            txtCargo.Text = cargo;
-            habilitarCampos();
-            pesquisarCampo(cargo);
-            ativarUpdate();
-        }
+      
 
         public void ativarUpdate()
         {
@@ -315,10 +315,10 @@ namespace ProjetoPI
             limparCampos();
         }
 
-        public void excluirUsuario(int codUsu)
+        public void excluirFuncionario(int codFunc)
         {
             MySqlCommand comm = new MySqlCommand();
-            comm.CommandText = "delete from tbUsuario where codUsu = " + codUsu + ";";
+            comm.CommandText = "delete from tbFuncionarios where codFunc = " + codFunc + ";";
             comm.CommandType = CommandType.Text;
             comm.Connection = Conexao.obterConexao();
             comm.Parameters.Clear();
@@ -341,7 +341,7 @@ namespace ProjetoPI
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
-            excluirUsuario(Convert.ToInt32(txtCodigo.Text));
+            excluirFuncionario(Convert.ToInt32(txtCodigo.Text));
         }
 
         private void mskCEP_KeyDown(object sender, KeyEventArgs e)

@@ -117,7 +117,7 @@ namespace ProjetoPI
             txtBairro.Enabled = false;
             txtNum.Enabled = false;
             txtComplemento.Enabled = false;
-            btnNovo.Enabled = true;
+            btnNovo.Enabled = false;
             btnCadastrar.Enabled = false;
             btnAlterar.Enabled = false;
             btnExcluir.Enabled = false;

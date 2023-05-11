@@ -175,7 +175,7 @@ namespace ProjetoPI
             this.Controls.Add(this.ltbItensPesquisados2);
             this.Controls.Add(this.gpbPesquisar);
             this.Name = "fFrmPesquisaParceiro";
-            this.Text = "fFrmPesquisaParceiro";
+            this.Text = "Aqui seu lixo - Pesquisar funcionário";
             this.gpbPesquisar.ResumeLayout(false);
             this.gpbPesquisar.PerformLayout();
             this.ResumeLayout(false);

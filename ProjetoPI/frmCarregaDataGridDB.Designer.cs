@@ -76,7 +76,7 @@ namespace ProjetoPI
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCarregaDataGridDB";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmCarregaDataGridDB";
+            this.Text = "Aqui seu lixo ";
             this.Load += new System.EventHandler(this.frmCarregaDataGridDB_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvFuncionarios)).EndInit();
             this.ResumeLayout(false);

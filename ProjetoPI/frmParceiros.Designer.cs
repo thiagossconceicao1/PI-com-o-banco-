@@ -104,7 +104,7 @@ namespace ProjetoPI
             // txtComplemento
             // 
             this.txtComplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtComplemento.Location = new System.Drawing.Point(514, 403);
+            this.txtComplemento.Location = new System.Drawing.Point(509, 356);
             this.txtComplemento.MaxLength = 50;
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(157, 26);
@@ -114,7 +114,7 @@ namespace ProjetoPI
             // 
             this.lblComplemento.AutoSize = true;
             this.lblComplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComplemento.Location = new System.Drawing.Point(513, 379);
+            this.lblComplemento.Location = new System.Drawing.Point(508, 332);
             this.lblComplemento.Name = "lblComplemento";
             this.lblComplemento.Size = new System.Drawing.Size(108, 20);
             this.lblComplemento.TabIndex = 29;
@@ -123,7 +123,7 @@ namespace ProjetoPI
             // txtNum
             // 
             this.txtNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNum.Location = new System.Drawing.Point(407, 402);
+            this.txtNum.Location = new System.Drawing.Point(402, 355);
             this.txtNum.MaxLength = 10;
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(91, 26);
@@ -133,7 +133,7 @@ namespace ProjetoPI
             // 
             this.lblNum.AutoSize = true;
             this.lblNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNum.Location = new System.Drawing.Point(403, 379);
+            this.lblNum.Location = new System.Drawing.Point(398, 332);
             this.lblNum.Name = "lblNum";
             this.lblNum.Size = new System.Drawing.Size(65, 20);
             this.lblNum.TabIndex = 27;
@@ -141,11 +141,11 @@ namespace ProjetoPI
             // 
             // mskCEP
             // 
-            this.mskCEP.Location = new System.Drawing.Point(10, 348);
+            this.mskCEP.Location = new System.Drawing.Point(11, 237);
             this.mskCEP.Mask = "00000000";
             this.mskCEP.Name = "mskCEP";
             this.mskCEP.Size = new System.Drawing.Size(91, 26);
-            this.mskCEP.TabIndex = 6;
+            this.mskCEP.TabIndex = 5;
             this.mskCEP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mskCEP_KeyDown);
             // 
             // txtCodigo
@@ -160,17 +160,17 @@ namespace ProjetoPI
             // mskCNPJ
             // 
             this.mskCNPJ.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mskCNPJ.Location = new System.Drawing.Point(163, 296);
+            this.mskCNPJ.Location = new System.Drawing.Point(554, 237);
             this.mskCNPJ.Mask = "000,000,000-00";
             this.mskCNPJ.Name = "mskCNPJ";
             this.mskCNPJ.Size = new System.Drawing.Size(122, 26);
-            this.mskCNPJ.TabIndex = 5;
+            this.mskCNPJ.TabIndex = 4;
             // 
             // lblCPF
             // 
             this.lblCPF.AutoSize = true;
             this.lblCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCPF.Location = new System.Drawing.Point(161, 273);
+            this.lblCPF.Location = new System.Drawing.Point(552, 214);
             this.lblCPF.Name = "lblCPF";
             this.lblCPF.Size = new System.Drawing.Size(49, 20);
             this.lblCPF.TabIndex = 23;
@@ -179,16 +179,16 @@ namespace ProjetoPI
             // cbbEstado
             // 
             this.cbbEstado.FormattingEnabled = true;
-            this.cbbEstado.Location = new System.Drawing.Point(163, 346);
+            this.cbbEstado.Location = new System.Drawing.Point(145, 237);
             this.cbbEstado.Name = "cbbEstado";
             this.cbbEstado.Size = new System.Drawing.Size(55, 28);
-            this.cbbEstado.TabIndex = 7;
+            this.cbbEstado.TabIndex = 6;
             // 
             // lblEstado
             // 
             this.lblEstado.AutoSize = true;
             this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(161, 325);
+            this.lblEstado.Location = new System.Drawing.Point(143, 216);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(60, 20);
             this.lblEstado.TabIndex = 20;
@@ -197,7 +197,7 @@ namespace ProjetoPI
             // txtCidade
             // 
             this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCidade.Location = new System.Drawing.Point(11, 403);
+            this.txtCidade.Location = new System.Drawing.Point(6, 356);
             this.txtCidade.MaxLength = 50;
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(132, 26);
@@ -207,7 +207,7 @@ namespace ProjetoPI
             // 
             this.lblCidade.AutoSize = true;
             this.lblCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCidade.Location = new System.Drawing.Point(10, 380);
+            this.lblCidade.Location = new System.Drawing.Point(5, 333);
             this.lblCidade.Name = "lblCidade";
             this.lblCidade.Size = new System.Drawing.Size(59, 20);
             this.lblCidade.TabIndex = 18;
@@ -216,7 +216,7 @@ namespace ProjetoPI
             // txtBairro
             // 
             this.txtBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBairro.Location = new System.Drawing.Point(163, 403);
+            this.txtBairro.Location = new System.Drawing.Point(158, 356);
             this.txtBairro.MaxLength = 50;
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(215, 26);
@@ -226,7 +226,7 @@ namespace ProjetoPI
             // 
             this.lblBairro.AutoSize = true;
             this.lblBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBairro.Location = new System.Drawing.Point(161, 380);
+            this.lblBairro.Location = new System.Drawing.Point(156, 333);
             this.lblBairro.Name = "lblBairro";
             this.lblBairro.Size = new System.Drawing.Size(51, 20);
             this.lblBairro.TabIndex = 16;
@@ -236,7 +236,7 @@ namespace ProjetoPI
             // 
             this.lblCEP.AutoSize = true;
             this.lblCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCEP.Location = new System.Drawing.Point(10, 325);
+            this.lblCEP.Location = new System.Drawing.Point(21, 214);
             this.lblCEP.Name = "lblCEP";
             this.lblCEP.Size = new System.Drawing.Size(41, 20);
             this.lblCEP.TabIndex = 14;
@@ -245,17 +245,17 @@ namespace ProjetoPI
             // txtEndereco
             // 
             this.txtEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEndereco.Location = new System.Drawing.Point(10, 241);
+            this.txtEndereco.Location = new System.Drawing.Point(10, 296);
             this.txtEndereco.MaxLength = 100;
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(424, 26);
-            this.txtEndereco.TabIndex = 3;
+            this.txtEndereco.TabIndex = 7;
             // 
             // lblEndereco
             // 
             this.lblEndereco.AutoSize = true;
             this.lblEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEndereco.Location = new System.Drawing.Point(10, 217);
+            this.lblEndereco.Location = new System.Drawing.Point(6, 272);
             this.lblEndereco.Name = "lblEndereco";
             this.lblEndereco.Size = new System.Drawing.Size(78, 20);
             this.lblEndereco.TabIndex = 12;
@@ -264,17 +264,17 @@ namespace ProjetoPI
             // mskTelefone
             // 
             this.mskTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mskTelefone.Location = new System.Drawing.Point(10, 296);
+            this.mskTelefone.Location = new System.Drawing.Point(548, 186);
             this.mskTelefone.Mask = "(00) 00000-0000";
             this.mskTelefone.Name = "mskTelefone";
             this.mskTelefone.Size = new System.Drawing.Size(133, 26);
-            this.mskTelefone.TabIndex = 4;
+            this.mskTelefone.TabIndex = 3;
             // 
             // lblTelefon
             // 
             this.lblTelefon.AutoSize = true;
             this.lblTelefon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefon.Location = new System.Drawing.Point(7, 273);
+            this.lblTelefon.Location = new System.Drawing.Point(545, 163);
             this.lblTelefon.Name = "lblTelefon";
             this.lblTelefon.Size = new System.Drawing.Size(71, 20);
             this.lblTelefon.TabIndex = 10;
@@ -296,7 +296,7 @@ namespace ProjetoPI
             this.txtNome.Location = new System.Drawing.Point(6, 114);
             this.txtNome.MaxLength = 100;
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(415, 26);
+            this.txtNome.Size = new System.Drawing.Size(676, 26);
             this.txtNome.TabIndex = 1;
             // 
             // txtEmail
